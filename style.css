@@ -94,8 +94,12 @@ section#home .background-overlay {
   transform: translateX(-50%);
 }
 
+.personal-logo {
+  width: 70px;
+}
+
 .main-content {
-  margin-top: 13%;
+  margin-top: 10%;
   font-weight: 200;
   font-size: 20px;
   color: white;
@@ -104,15 +108,23 @@ section#home .background-overlay {
   z-index: 10;
 }
 
+.main-content .greetings {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 30px;
+  color: #66d9ed;
+}
+
 .main-content h1 {
   font-size: 80px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .main-content h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 200;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
 .main-content h2 span {
