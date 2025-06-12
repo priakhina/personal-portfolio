@@ -118,12 +118,22 @@ section#home .background-overlay {
   z-index: 30;
 }
 
-.navbar-toggler[aria-expanded='false'] > .navbar-toggler-icon {
-  background-image: url('icons/menu-open.svg');
+.navbar-toggler[aria-expanded='false'] > .navbar-toggler-icon,
+.navbar-toggler[aria-expanded='true'] > .navbar-toggler-icon {
+  background-image: none;
 }
 
-.navbar-toggler[aria-expanded='true'] > .navbar-toggler-icon {
-  background-image: url('icons/menu-close.svg');
+.navbar-toggler[aria-expanded='false'] > .navbar-toggler-icon::before,
+.navbar-toggler[aria-expanded='true'] > .navbar-toggler-icon::before {
+  font-family: FontAwesome;
+  content: '\f0c9';
+  font-size: 30px;
+  color: #66d9ed;
+}
+
+.navbar-toggler[aria-expanded='true'] > .navbar-toggler-icon::before {
+  content: '\f00d';
+  font-size: 35px;
 }
 
 .personal-logo {
@@ -461,8 +471,15 @@ section#experience
 }
 
 section#experience .accordion-button::after {
+  width: 30px;
+  height: 30px;
+  font-family: FontAwesome;
+  content: '\f078';
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-image: none;
   margin-left: 0;
-  background-image: url('icons/chevron-down.svg');
 }
 
 section#experience .accordion-collapse {
