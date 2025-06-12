@@ -353,7 +353,7 @@ section#projects .project-item:hover .view-project-link-wrapper {
 }
 
 section#projects .view-project-link,
-.project-content .small-nav a {
+section#project .project-content .small-nav a {
   display: block;
   position: relative;
   font-family: 'Sora', sans-serif;
@@ -365,12 +365,12 @@ section#projects .view-project-link,
 }
 
 section#projects .view-project-link:hover,
-.project-content .small-nav a:hover {
+section#project .project-content .small-nav a:hover {
   color: white;
 }
 
 section#projects .view-project-link::after,
-.project-content .small-nav a::after {
+section#project .project-content .small-nav a::after {
   content: '';
   position: absolute;
   bottom: 3%;
@@ -386,8 +386,8 @@ section#projects .view-project-link::after,
 
 section#projects .view-project-link:hover::after,
 section#projects .view-project-link:focus::after,
-.project-content .small-nav a:hover::after,
-.project-content .small-nav a:focus::after {
+section#project .project-content .small-nav a:hover::after,
+section#project .project-content .small-nav a:focus::after {
   transform: translate3d(0, 0, 0);
 }
 
@@ -401,11 +401,6 @@ section#project .project-text {
 
 section#project .project-text .small-nav {
   margin-bottom: 30px;
-}
-
-section#project .project-text .small-nav a {
-  display: inline-block;
-  color: #8e8e8e;
 }
 
 section#project .project-text .small-nav .arrow {
