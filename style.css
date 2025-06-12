@@ -418,9 +418,14 @@ section#project .project-text h1 {
   text-transform: capitalize;
 }
 
-section#project .project-text p {
+section#project .project-text p,
+section#project .project-text li {
   font-size: 17px;
   font-weight: 200;
+}
+
+section#project .project-text li {
+  margin-bottom: 10px;
 }
 
 section#project .project-image {
@@ -660,7 +665,8 @@ footer .media-links > a:hover {
     font-size: 35px;
   }
 
-  section#project .project-text p {
+  section#project .project-text p,
+  section#project .project-text li {
     font-size: 20px;
   }
 }
