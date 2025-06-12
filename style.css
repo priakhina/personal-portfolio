@@ -2,7 +2,6 @@ body {
   font-family: 'Outfit', sans-serif !important;
   color: white !important;
   background-color: #0b0c0f !important;
-  /* background-color: #141416 !important; */
 }
 
 a {
@@ -329,7 +328,6 @@ section#projects .project-description h4 {
 section#projects .project-description h5 {
   font-size: 15px;
   font-weight: 300;
-  /* color: rgba(255, 255, 255, 0.75); */
   color: #8e8e8e;
   transform: translateY(0px);
   transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
@@ -358,7 +356,6 @@ section#project .project-content .small-nav a {
   position: relative;
   font-family: 'Sora', sans-serif;
   font-size: 15px;
-  /* color: rgba(255, 255, 255, 0.75); */
   color: #8e8e8e;
   padding-bottom: 0.2em;
   overflow: hidden;
