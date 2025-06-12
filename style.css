@@ -505,6 +505,10 @@ section#experience .company-logo > img.khans-vodka-logo {
   width: 70%;
 }
 
+footer {
+  font-weight: 300;
+}
+
 footer p {
   font-family: 'Sora', sans-serif !important;
   font-size: 15px;
