@@ -25,7 +25,7 @@ section {
 section#home {
   height: 100vh;
   padding-top: 0;
-  background: #021521 url('images/home-background.jpg') 50% 0 no-repeat;
+  background: #021521 url('./images/home-background.jpg') 50% 0 no-repeat;
   background-size: cover;
 }
 
