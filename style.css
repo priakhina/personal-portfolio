@@ -610,17 +610,6 @@ footer .media-links > a:hover {
   .technologies .technology-icon {
     font-size: 70px;
   }
-}
-
-@media (min-width: 992px) {
-  section {
-    padding: 60px 0;
-  }
-
-  section#home {
-    height: 100vh;
-    padding-top: 30px;
-  }
 
   #navbarNav {
     top: 50%;
@@ -644,17 +633,30 @@ footer .media-links > a:hover {
   }
 
   .navbar .nav-link {
+    font-size: 15px;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
   .navbar .nav-link::before {
+    font-size: 12px;
     right: 0;
     transform: none;
   }
 
   .navbar .nav-link > span {
     display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    padding: 60px 0;
+  }
+
+  section#home {
+    height: 100vh;
+    padding-top: 30px;
   }
 
   .main-content .greetings {
@@ -681,6 +683,14 @@ footer .media-links > a:hover {
   .section-heading {
     font-size: 65px;
   }
+
+  .navbar .nav-link {
+    font-size: 17px;
+  }
+
+  .navbar .nav-link::before {
+    font-size: 13px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -698,6 +708,10 @@ footer .media-links > a:hover {
 
   .section-heading {
     font-size: 73px;
+  }
+
+  .navbar .nav-link {
+    font-size: 18px;
   }
 
   .technologies .technology-item {
