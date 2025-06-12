@@ -391,39 +391,39 @@ section#projects .view-project-link:focus::after,
   transform: translate3d(0, 0, 0);
 }
 
-.project-content {
-  margin-top: 50px;
+section#project {
+  padding-top: 0;
 }
 
-.project-content h1 {
-  font-size: 40px;
-  text-transform: capitalize;
-}
-
-.project-content .small-nav {
+section#project .project-text {
   margin-bottom: 30px;
 }
 
-.project-content .small-nav a {
+section#project .project-text .small-nav {
+  margin-bottom: 30px;
+}
+
+section#project .project-text .small-nav a {
   display: inline-block;
   color: #8e8e8e;
 }
 
-.project-content .small-nav .arrow {
+section#project .project-text .small-nav .arrow {
   font-size: 11px;
   padding: 0 10px;
 }
 
-.project-content .project-text {
-  margin-bottom: 30px;
+section#project .project-text h1 {
+  font-size: 30px;
+  text-transform: capitalize;
 }
 
-.project-content .project-text p {
-  font-size: 20px;
+section#project .project-text p {
+  font-size: 17px;
   font-weight: 200;
 }
 
-.project-content .project-image {
+section#project .project-image {
   width: 100%;
 }
 
@@ -569,6 +569,10 @@ footer .media-links > a:hover {
   .section-heading {
     font-size: 50px;
   }
+
+  section#project .project-content {
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -647,6 +651,18 @@ footer .media-links > a:hover {
   .navbar .nav-link > span {
     display: inline;
   }
+
+  section#project .project-content {
+    margin-top: 30px;
+  }
+
+  section#project .project-text h1 {
+    font-size: 35px;
+  }
+
+  section#project .project-text p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -691,6 +707,14 @@ footer .media-links > a:hover {
   .navbar .nav-link::before {
     font-size: 13px;
   }
+
+  section#project .project-content {
+    margin-top: 40px;
+  }
+
+  section#project .project-text h1 {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -720,5 +744,9 @@ footer .media-links > a:hover {
 
   .technologies .technology-icon {
     font-size: 80px;
+  }
+
+  section#project .project-content {
+    margin-top: 50px;
   }
 }
